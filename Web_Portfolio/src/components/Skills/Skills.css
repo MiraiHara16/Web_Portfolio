@@ -1,32 +1,63 @@
-import React from 'react';
-import { Code, Database, Palette, Globe } from 'lucide-react';
+.skills-section {
+  padding: 5rem 1rem;
+  background-color: rgba(31, 41, 55, 0.5); /* bg-gray-800/50 */
+}
 
-const skills = [
-  { name: "Frontend", icon: <Code className="w-8 h-8" />, items: ["React", "Vue.js", "TypeScript", "Tailwind CSS"] },
-  { name: "Backend", icon: <Database className="w-8 h-8" />, items: ["Node.js", "Python", "PostgreSQL", "MongoDB"] },
-  { name: "Design", icon: <Palette className="w-8 h-8" />, items: ["Figma", "Adobe XD", "UI/UX", "Responsive Design"] },
-  { name: "Tools", icon: <Globe className="w-8 h-8" />, items: ["Git", "Docker", "AWS", "Vite"] }
-];
+.skills-container {
+  max-width: 72rem; /* max-w-6xl */
+  margin: 0 auto;
+}
 
-const Skills = () => (
-  <section id="skills" className="py-20 px-4 bg-gray-800/50">
-    <div className="max-w-6xl mx-auto">
-      <h2 className="text-4xl font-bold text-center mb-16">Skills & Technologies</h2>
-      <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-        {skills.map((skill, index) => (
-          <div key={index} className="bg-gray-800 p-6 rounded-xl hover:bg-gray-700 transition-colors">
-            <div className="text-blue-400 mb-4">{skill.icon}</div>
-            <h3 className="text-xl font-semibold mb-4">{skill.name}</h3>
-            <ul className="space-y-2 text-gray-300">
-              {skill.items.map((item, idx) => (
-                <li key={idx} className="text-sm">{item}</li>
-              ))}
-            </ul>
-          </div>
-        ))}
-      </div>
-    </div>
-  </section>
-);
+.skills-title {
+  font-size: 2.25rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 4rem;
+}
 
-export default Skills;
+.skills-grid {
+  display: grid;
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .skills-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.skill-card {
+  background-color: #1f2937; /* bg-gray-800 */
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  transition: background-color 0.3s ease;
+}
+
+.skill-card:hover {
+  background-color: #374151; /* bg-gray-700 */
+}
+
+.skill-icon {
+  color: #60a5fa; /* text-blue-400 */
+  margin-bottom: 1rem;
+}
+
+.skill-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.skill-list {
+  color: #d1d5db; /* text-gray-300 */
+}
+
+.skill-list li {
+  font-size: 0.875rem;
+}

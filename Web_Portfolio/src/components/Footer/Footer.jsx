@@ -1,13 +1,10 @@
 import React from 'react';
+import './Footer.css';
 
-const Footer = () => {
-  return (
-    <footer className="py-8 px-4 border-t border-gray-800 bg-gray-900">
-      <div className="max-w-6xl mx-auto text-center text-gray-400">
-        <p>&copy; {new Date().getFullYear()} John Doe. Built with React & Vite.</p>
-      </div>
-    </footer>
-  );
-};
+const Footer = () => (
+  <footer className="footer">
+    &copy; {new Date().getFullYear()} 99 little bugs in the code, take one down, patch it around... 127 bugs in the code..
+  </footer>
+);
 
 export default Footer;
