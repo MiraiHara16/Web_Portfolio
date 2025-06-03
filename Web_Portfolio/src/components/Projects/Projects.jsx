@@ -2,29 +2,30 @@ import React from 'react';
 import { Github, ExternalLink } from 'lucide-react';
 import './Projects.css';
 
+
 const projects = [
   {
-    title: "E-Commerce Platform",
-    description: "Full-stack e-commerce solution with React, Node.js, and MongoDB. Features include user authentication, payment integration, and admin dashboard.",
-    tech: ["React", "Node.js", "MongoDB", "Stripe"],
-    image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=300&fit=crop",
-    github: "#",
+    title: "See You Yesterday ",
+    description: "Game develop Developed using MonoGame and C# language, it provides a ready-made infrastructure for game development.",
+    tech: ["Mono Game"],
+    image: "/assets/Project_pic/SeeyouyesterDay.png",
+    github: "https://github.com/MiraiHara16/See_You_Yester_Day",
     demo: "#"
   },
   {
-    title: "Task Management App",
-    description: "Collaborative project management tool with real-time updates, drag-and-drop functionality, and team collaboration features.",
-    tech: ["React", "Firebase", "Material-UI", "Socket.io"],
-    image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=400&h=300&fit=crop",
-    github: "#",
+    title: "IOT Plant Emotion",
+    description: "project that monitors environmental conditions around a plant and displays its “emotions” (happy, sad, angry) based on real-time sensor data.",
+    tech: ["C++", "Python", "Arduino r4", "LineDev"],
+    image: '/assets/Project_pic/Internet-of-Things-1.jpg',
+    github: "https://github.com/MiraiHara16/Plant_Emtion",
     demo: "#"
   },
   {
-    title: "Weather Dashboard",
-    description: "Beautiful weather application with location-based forecasts, interactive maps, and detailed weather analytics.",
-    tech: ["React", "API Integration", "Chart.js", "CSS3"],
-    image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=400&h=300&fit=crop",
-    github: "#",
+    title: "MVC_Product",
+    description: "CRUD web application built using ASP.NET MVC architecture. It allows users to manage product information (create, read, update, delete) and stores all data in a local JSON file",
+    tech: ["C#","Razor",],
+    image: "/assets/Project_pic/Taazaa-Blog-Images-1020-x-570-px-1-3.jpg",
+    github: "https://github.com/MiraiHara16/MVC_Product#",
     demo: "#"
   }
 ];

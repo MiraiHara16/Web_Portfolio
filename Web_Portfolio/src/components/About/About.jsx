@@ -30,7 +30,7 @@ const About = ({ scrollToSection }) => (
             <li>🎓 Computer Science Graduate</li>
             <li>💼 1+ Years Experience</li>
             <li>🌍 Based in Your City</li>
-            <li>🍵 Coffee Enthusiast</li>
+            <li>🍵 Matcha Lover</li>
             <li>🎮 Gaming & Tech Lover</li>
           </ul>
         </div>

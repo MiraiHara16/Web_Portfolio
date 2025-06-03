@@ -14,30 +14,30 @@ const Contact = () => (
           <div>
             <Mail className="contact-icon" />
             <h3 className="contact-subtitle">Email</h3>
-            <p className="contact-text">john.doe@example.com</p>
+            <p className="contact-text">nopnarong52210@gmail.com</p>
           </div>
           <div>
             <Github className="contact-icon" />
             <h3 className="contact-subtitle">GitHub</h3>
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/MiraiHara16"
               className="contact-link"
               target="_blank"
               rel="noopener noreferrer"
             >
-              github.com/yourusername
+              github.com/MiraiHara16
             </a>
           </div>
           <div>
             <Linkedin className="contact-icon" />
             <h3 className="contact-subtitle">LinkedIn</h3>
             <a
-              href="https://linkedin.com/in/yourprofile"
+              href="https://www.linkedin.com/in/nopnarong-puangkhum-231660173/"
               className="contact-link"
               target="_blank"
               rel="noopener noreferrer"
             >
-              linkedin.com/in/yourprofile
+              linkedin.com/in/nopnarong
             </a>
           </div>
         </div>

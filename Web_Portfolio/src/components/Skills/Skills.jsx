@@ -4,9 +4,9 @@ import './Skills.css';
 
 const skills = [
   { name: "Frontend", icon: <Code className="w-8 h-8" />, items: ["React", "Vue.js", "TypeScript", "Tailwind CSS"] },
-  { name: "Backend", icon: <Database className="w-8 h-8" />, items: ["Node.js", "Python", "PostgreSQL", "MongoDB"] },
+  { name: "Backend", icon: <Database className="w-8 h-8" />, items: ["Node.js", "Python", "PostgreSQL", "C#"] },
   { name: "Design", icon: <Palette className="w-8 h-8" />, items: ["Figma", "Adobe XD", "UI/UX", "Responsive Design"] },
-  { name: "Tools", icon: <Globe className="w-8 h-8" />, items: ["Git", "Docker", "AWS", "Vite"] }
+  { name: "Tools", icon: <Globe className="w-8 h-8" />, items: ["Git", "Docker", "Microsoft azure", "Vite" ,".NET"] }
 ];
 
 const Skills = () => (
